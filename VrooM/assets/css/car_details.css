@@ -1,0 +1,144 @@
+.listing-detail 
+{
+    padding:30px 0;	
+    background-color: azure;
+}
+
+.listing_detail_head 
+{
+    margin: 0 0 20px;
+	color: #000;
+    overflow: visible;
+    text-align: left;
+}
+
+.listing_detail_head h1
+{
+    font-size: 50px;
+    color: rgb(18, 18, 202);
+}
+
+.listing_detail_head h3
+{
+    font-size: 30px;
+    color: rgb(18, 18, 202);
+}
+
+.listing_detail_head p
+{
+    font-size: 20px;
+}
+
+.price_info h3
+{
+    overflow: visible;
+    text-align: left;
+    font-size:32px;
+    font-weight:900;
+    color:rgb(255, 5, 5);
+}
+
+.main_features {
+	overflow:hidden;
+}
+
+.main_features h3
+{
+    font-size: 30px;
+    color: rgb(18, 18, 202);
+}
+
+.main_features ul {
+	padding:0px;
+	margin:0px;
+}
+
+.main_features ul li 
+{
+  border: 1px solid #dcd9d9;
+  float: left;
+  list-style: outside none none;
+  margin: 0 17px 0 0;
+  min-height: 113px;
+  min-width: 123px;
+  padding: 10px;
+  text-align: center;
+}
+.main_features ul li h5 
+{
+	font-weight:300;
+    margin:0px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.main_features ul li p 
+{
+    font-size:15px;
+    color: red;
+	margin:0px;
+}
+
+.main_features ul li i 
+{
+	color:#c0c0c0;
+	font-size:36px;
+	margin:0px;
+}
+
+.sidebar_widget
+{
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+.form-group
+{
+    padding: 5px;
+}
+
+.widget_heading
+{
+    color:rgb(27, 107, 211);
+    font-size: 28px;
+}
+.listing_more_info 
+{
+	overflow:hidden;
+    padding:50px 0;	
+}
+
+.listing_more_info h3
+{
+    font-size: 30px;
+    color: rgb(18, 18, 202);
+}
+.listing_detail_wrap 
+{
+	border:#dcd9d9 solid 1px;	
+}
+
+.listing_more_info table td, .listing_more_info table th {
+	font-size:22px;
+}
+.listing_more_info table tr td:first-child {
+	color:#111;
+}
+
+.fa-check
+{
+    font-size:40px;
+    color: rgb(47, 233, 47);
+}
+
+.fa-close
+{
+    font-size:40px;
+    color:red;
+}
+
+.table
+{
+    background-color: #fff;
+}

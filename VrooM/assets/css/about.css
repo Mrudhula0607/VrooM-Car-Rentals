@@ -1,0 +1,95 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-us
+{
+    width: 100%;
+    height: 600px;
+    background-image:  url(../images/about_us.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text
+{
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif, Helvetica, Arial ;
+    text-shadow: 0px 15px 12px #000;
+}
+
+.line
+{
+    width: 200px;
+    height: 8px;
+    background-color: #a217ff;
+    display: block;
+    position: absolute;
+    top: 54%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 12px #000;
+}
+
+.content
+{
+     width: 100%;
+     height: auto;
+     background-color: #c269fd;
+     font-size: 25px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: #333;
+     line-height: 30px;
+     text-align: justify;
+}
+
+b
+{
+    font-size: 40px;
+    color: #000;
+    font-weight: 400px;
+}
+
+.endtag
+{
+    text-align: center;
+}
+
+.team-section
+{
+    background-color: #a217ff;
+    position: absolute;
+    bottom: -90%;
+}
+
+.team-section
+{
+    text-decoration: none;
+    margin-left: 440px;
+	border: 1px solid white;
+	color: #c269fd;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-right: 5px;
+	background-color:  black;
+	font-family: "Roboto", Helvetica, Arial;
+	position: absolute;
+	left: 10%;
+}

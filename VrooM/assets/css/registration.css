@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(../images/register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1
+{
+    color: ghostwhite;
+}
+.registration
+{
+    text-align: center;
+    margin: 100px 400px;
+}
+
+#register
+{
+    width: 90%;
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 20px 0px;
+}
+
+#data
+{
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 8px;
+    font-size: 15px;
+}
+
+#submit
+{
+    color: antiquewhite;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 8px;
+    border: 2px;
+    background-color: cornflowerblue;
+}
+
+#label
+{
+    color: aliceblue;
+    font-size: 20px;
+    left: 35%;
+    position: absolute;
+}
+
+#login
+{
+    color: blue;
+    font-size: 18px;
+    width: 250px;
+    padding: 10px;
+}

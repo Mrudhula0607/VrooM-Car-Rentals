@@ -1,0 +1,39 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bookings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.heading
+{
+    margin: 10px;
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+
+table.table-bordered{
+    border:2px solid rebeccapurple;
+    margin-top:20px;
+    text-align: center;
+  }
+table.table-bordered > thead > tr > th{
+    border: 2px solid rebeccapurple;
+    text-align: center;
+}
+table.table-bordered > tbody > tr > td{
+    border: 2px solid rebeccapurple;
+}
+
+.btn
+{
+    text-align: center;
+    position: absolute;
+    left: 43%;
+
+}

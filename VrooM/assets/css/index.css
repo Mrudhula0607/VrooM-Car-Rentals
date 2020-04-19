@@ -1,0 +1,52 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.body
+{
+	font-family: monospace;
+}
+
+.content
+{
+	background-image : linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/banner.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.h
+{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+h1
+{
+	color: aliceblue;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 300px
+}
+
+.ButtonStyle
+{
+	margin-top: 30px;
+	margin-left: 440px;
+	border: 1px solid white;
+	color: white;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 5px;
+	background-color:  #8c12dd;
+	font-family: "Roboto", Helvetica, Arial;
+	position: absolute;
+	left: 10%;
+}

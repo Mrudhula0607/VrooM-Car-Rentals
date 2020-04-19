@@ -1,0 +1,120 @@
+body
+{
+  padding: 0px;
+  margin: 0px;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}   
+
+
+.container
+{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact-section .container h2,h1
+{
+  color: whitesmoke;
+  letter-spacing: 2px;    
+  text-align: center; 
+  font-size: 40px;
+}
+
+#contact-section .container h1
+{
+  font-size: 50px;
+}
+
+#contact-section .container p
+{
+  padding-bottom: 3%;
+  color: #fff;
+  text-align: center;
+  font-size: 24px; 
+}
+
+#contact-section .contact-form
+{
+  display: block;
+  position:absolute; 
+  width: 300px; 
+  left: 5px; 
+  top: 180px;
+}
+
+
+.contact-form i.fa
+{
+  font-size: 22px; 
+  padding: 3%;
+  border-radius: 80%;
+  margin: 2%;
+  border:2px solid rgb(190, 190, 190);
+  color: rgb(190, 190, 190);
+}
+    
+.contact-form i.fa:hover
+{
+  cursor: pointer;
+  border:2px solid white;
+  color: white;
+}
+           
+.form-info
+{
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.details
+{
+  position: absolute;
+  left:32%;
+  
+}
+input, textarea
+{
+  padding: 10px;
+  margin:10px;
+  width: 70%;
+  background-color:rgba(136, 133, 133, 0.5);
+  color: white;
+  border: none;
+  outline:none;
+}
+
+input::placeholder, textarea::placeholder
+{
+  color: white;
+  font-size: 16px;
+}
+    
+     
+.submit
+{
+  background-color: rgb(48, 192, 211);
+  color:#fff ;
+  font-size: 20px;
+  padding: 4px;
+  border: 1px solid #fff;
+  width: 15%;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  border:2px solid rgb(190, 190, 190);
+  position: absolute;
+  left: 30%;
+  top: 98%;
+}
+
+.submit:hover
+{
+  border: 1px solid #fff;
+  cursor: pointer;
+}
