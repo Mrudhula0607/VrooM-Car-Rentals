@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1
+{
+    text-align: center;
+    color: ghostwhite;
+}
+.logging-in
+{
+    text-align: center;
+    margin: 200px 400px;
+
+}
+
+#login
+{
+    width: 60%;
+    background-color:black;
+    opacity: 0.9;
+    padding: 20px 0px;
+    position: relative;
+    left: 20%;
+}
+
+#data
+{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 8px;
+    font-size: 15px;
+}
+
+#login-btn
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 8px;
+    border: 2px;
+    background-color: cornflowerblue;
+}
+
+#label
+{
+    color: white;
+    font-size: 20px;
+    left:14%;
+    position: absolute;
+}
+
+#register
+{
+    color: blue;
+    font-size: 18px;
+    width: 250px;
+    padding: 10px;
+}
